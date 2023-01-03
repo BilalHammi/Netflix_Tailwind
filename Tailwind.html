@@ -8,58 +8,88 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <title>Netflix</title>
 </head>
 
 <body class="bg-black h-110%">
-    <nav class="flex flex-row z-50 absolute">
-        <img src="img/Logo_netflix.png" class="h-[7rem]">
-        <div class="text-white">
-            <button class="bg-black h-10 px-3 mt-9 border-2 border-inherit ml-[90rem]"><i class="bi bi-globe">
-                    Nederland</i><i class="bi bi-caret-down-fill"></i>
-            </button>
+    <section>
+        <nav class="flex flex-row z-50 absolute">
+            <img src="img/Logo_netflix.png" class="h-[7rem]">
+            <div class="text-white">
+                <button class="bg-black h-10 px-3 mt-9 border-2 border-inherit ml-[90rem]"><i class="bi bi-globe">
+                        Nederland</i><i class="bi bi-caret-down-fill"></i>
+                </button>
+            </div>
+            <button class="bg-red-600 h-10 px-3 mb-[7rem] rounded-md text-white mt-9 ml-5">Inloggen</button>
+        </nav>
+        <div class="z-50 absolute text-white">
+            <h1 class="font-bold text-6xl ml-[35rem] mt-[15rem] flex flex-wrap max-w-3xl text-center">Onbeperkt series,
+                films en
+                meer kijken.</h1>
+            <h2 class="text-2xl ml-[48rem] mt-5">Kijk waar je wilt. Altijd opzegbaar.</h2>
+            <p class="text-lg ml-[35rem] mt-6">Klaar om te kijken? Voer je e-mailadres in om je lidmaatschap te starten
+                of
+                te
+                hernieuwen.
+            </p>
+            <div class="flex flex-row">
+                <input type="text" placeholder="E-mailadres"
+                    class="ml-[36rem] mt-4 pl-2 px-[18rem] font-bold text-black outline-none rounded-l-md">
+                <button class="bg-red-600 mt-4 px-[2rem] py-5 text-3xl font-bold">Aan de slag ></button>
+            </div>
+            </div>
+            <div class="">
+                <img src=" img/Netflix_background.jpg"
+                    class="h-[47em] w-full border-b-8 border-gray-700 opacity-60 absolute bg-gradient-to-t-black-transparent-black inset-0 z-0">
+            </div>
+    </section>
+    
+    <section class="">
+        <div class="text-white absolute ml-[27rem]">
+            <h1 class="mt-[60rem] font-bold text-5xl">Kijk op je tv.</h1>
+            <p class="text-2xl mt-3 mb-48 max-w-md flex flex-wrap">Kijk op smart-tv's, PlayStation,
+                Xbox, Chromecast, Apple TV, blu-rayspelers en
+                meer.</p>
         </div>
-        <button class="bg-red-600 h-10 px-3 mb-[7rem] rounded-md text-white mt-9 ml-5">Inloggen</button>
-    </nav>
-    <div class="z-50 absolute text-white">
-        <h1 class="font-bold text-6xl ml-[35rem] mt-[15rem] flex flex-wrap max-w-3xl text-center">Onbeperkt series, films en
-            meer kijken.</h1>
-        <h2 class="text-2xl ml-[48rem] mt-5">Kijk waar je wilt. Altijd opzegbaar.</h2>
-        <p class="text-lg ml-[35rem] mt-6">Klaar om te kijken? Voer je e-mailadres in om je lidmaatschap te starten of te
-            hernieuwen.
-        </p>
-        <div class="flex flex-row">
-            <input type="text" placeholder="E-mailadres"
-                class="ml-[36rem] mt-4 pl-2 px-[18rem] font-bold text-black outline-none rounded-l-md">
-            <button class="bg-red-600 mt-4 px-[2rem] py-5 text-3xl font-bold">Aan de slag ></button>
+        <div class="">
+            <img src="img/tv.png" alt="" class="absolute right-0 mr-52 mt-[47rem] z-50">
+            <video class="our-story-card-video absolute mt-[49rem] right-0 mr-[18rem] h-[25rem] w-[30rem] z-0"
+                data-uia="our-story-card-video" autoplay playsinline muted loop>
+                <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+                    type="video/mp4">
         </div>
-    </div>
-    <div class="">
-        <img src=" img/Netflix_background.jpg"
-            class="h-[47em] w-full border-b-8 border-gray-700 opacity-60 absolute bg-gradient-to-t-black-transparent-black inset-0 z-0">
-    </div>
-    <div class="text-white absolute ml-[27rem]">
-        <h1 class="mt-[60rem] font-bold text-5xl">Kijk op je tv.</h1>
-        <p class="text-2xl mt-3 mb-48 max-w-md flex flex-wrap">Kijk op smart-tv's, PlayStation,
-            Xbox, Chromecast, Apple TV, blu-rayspelers en
-            meer.</p>
-    </div>
-    <div class="">
-        <img src="img/tv.png" alt="" class="absolute right-0 mr-52 mt-[47rem] z-50">
-        <video class="our-story-card-video absolute mt-[49rem] right-0 mr-[18rem] h-[25rem] w-[30rem] z-0"
-            data-uia="our-story-card-video" autoplay playsinline muted loop>
-            <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
-                type="video/mp4">
-    </div>
-    <div class="text-white absolute right-0 mr-[14rem]">
-        <h1 class="mt-[97rem] font-bold text-5xl max-w-xl flex flex-wrap">Download series die je offline wilt kijken.
-        </h1>
-        <p class="text-2xl mt-3 mb-48 max-w-lg flex flex-wrap">Sla je favorieten eenvoudig op zodat je altijd wat kunt
-            kijken.</p>
-    </div>
-    <div class="absolute  mt-[90rem]">
-        <img src="img/mobile-img.jpg" alt="" class="h-[25rem] w-[25rem] ml-[26rem] z-0">
-    </div>
+        <div class="text-white absolute right-0 mr-[14rem]">
+            <h1 class="mt-[97rem] font-bold text-5xl max-w-xl flex flex-wrap">Download series die je offline wilt
+                kijken.
+            </h1>
+            <p class="text-2xl mt-3 mb-48 max-w-lg flex flex-wrap">Sla je favorieten eenvoudig op zodat je altijd wat
+                kunt
+                kijken.</p>
+            </div>
+    </section>
+    
+    <section class="border-b-8 border-gray-700 z-50 absolute">
+        <div class="absolute  mt-[90rem]">
+            <img src="img/mobile-img.jpg" alt="" class="h-[25rem] w-[25rem] ml-[26rem] z-0">
+            <div class="bg-black border-2 border-slate-600 h-[7rem] w-[25rem] rounded-lg ml-[27rem] z-50 mt-24 absolute top-40">
+                <img src="img/Stranger_things_poster.png" class="h-[6rem] w-[5rem] mt-1.5 ml-4">
+                <p class="font-bold text-white ml-28 absolute bottom-14">Stranger Things</p>
+                <p class="text-sky-500 ml-[7rem] absolute bottom-8">Downloaden...</p>
+                <div class="our-story-card-animation-custom" data-uia="our-story-card-custom" aria-hidden="true">
+                    <img src="img/download-icon.gif" class="ml-[17rem] absolute bottom-2 z-50">
+                </div>
+            </div>
+            </div>
+            </section>
+            
+            <section class="">
+                <div class="absolute z-50 text-white mt-[130rem] ml-[27rem]">
+                    <h1 class="font-bold text-5xl">Kijk overal.</h1>
+                    <p class="text-2xl mt-3 max-w-md">Stream onbeperkt series en films op je telefoon, tablet, laptop en tv, zonder meer te betalen.
+                    </p>
+                </div>
+            </section>
 </body>
 
 </html>
